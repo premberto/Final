@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="js/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="js/jquery-ui.structure.min.css"/>
+        <link rel="stylesheet" href="js/jquery-ui.theme.min.css"/>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/carrito.js"></script>
+         <link rel="stylesheet" href="style/stylecarrito.css">
+       
+    </head>
+    <body>
+         <h3 style="text-align: center"> Carrito de compras</h3>
+        <div>
+            <ul class="lista">
+                <li><a href="index.html"> 1.Lista de Productos </a></li>
+                <li><a href="carrito.html">2.Carrito de Compras </a></li>
+                <li><a href="Historial.html">3.Historial de Compras </a></li>
+            </ul>
+        </div>
+        <div>
+            <table id = "tablaG">
+                <tr>
+                    <th>*Codigo:</th>
+                    <th>*Descripcion del producto:</th>
+                    <th>*Valor:</th>
+                    <th>*Marca:</th>
+                    <th>*AÑadir:</th>  
+                </tr>
+            </table>
+        </div>
+        <div style="margin-top: 30px;">
+            <h1 style="text-align: center; font-family: sans-serif"> Total: <label id = "total"></label> 
+                <input type="image" src="imagenes/money-wallet-icon.png" id="pagar" style="margin-left: 2%" height="100" width="100">
+                <input type="image" src="imagenes/Ecommerce-Return-Purchase-icon.png" id="cancelar" style="margin-left: 2%" height="100" width="100">
+            </h1>          
+            <h1 style="text-align: center; font-family: sans-serif"> *Pagar o *Quitar Del Carrito </h1> 
+        </div>
+    </body>
+</html>

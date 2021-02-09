@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 feb. 2021, 10:44:25
+    Author     : HP
+*/
+
+.lista{
+                margin-left: 10px;
+                list-style: none;
+                padding: 50px;
+                background: green;
+                overflow-style:  marquee-block;
+                width: 98%;
+                margin-bottom: 40px;
+            }
+
+            .lista li{
+                display : inline-block;
+                height: 30px;
+                width: 25%;
+            }
+            .lista li a{
+
+                text-align: left;
+                color: white;
+                font-size: 30px;
+                text-decoration: none;
+            }
+            body {font-family: Arial, Helvetica, sans-serif;}
+
+            table {  
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                font-size: 12px;   
+                margin-left:180px; 
+                margin-top: 20px; width: 75%;
+                text-align: left;  
+                border-collapse: collapse;
+            }
+            th {     font-size: 30px;  
+                     font-weight: normal;  
+                     padding: 8px;   
+                     background: black;
+                     border-top:10px solid #fff;  
+                     border-bottom: 10px solid #fff; 
+                     color: whitesmoke; 
+            }
+
+            td {    padding: 30px;  
+                    background: chartreuse;  
+                    border-bottom: 1px solid #fff;
+                    color: whitesmoke;
+                    border-top: 1px solid transparent;
+                    font-size: 20px;
+            }
+
+            tr:hover td { background: yellow; color: black; }
+        
